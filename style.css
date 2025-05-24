@@ -88,7 +88,28 @@ form button[type="submit"]:hover{
 
 }
 
-
+.recipe button{
+    background-color: #f44336;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.recipe-details{
+    display: none;
+    position: fixed;
+    top:20%;
+    left: 37%;
+    transition: translate(-50%, -50%);
+    background-color: #4a4a4a;
+    width: 400px;
+    height: 520px;
+    border-radius: 5px;
+    font-size: 20px;
+}
 
 @media (max-width:600px) {
     header nav{
