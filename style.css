@@ -22,7 +22,7 @@ body{
     width: 140px;
 }
 header nav{
-   
+    
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -87,6 +87,10 @@ form button[type="submit"]:hover{
     color: #4a4a4a;
 
 }
+.recipe-details-content{
+    padding: 30px;
+    text-align: justify;
+}
 
 .recipe button{
     background-color: #f44336;
@@ -97,6 +101,14 @@ form button[type="submit"]:hover{
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+}
+/* Adding scrollbar to recipe detals popup */
+.recipe-details::-webkit-scrollbar{
+    width: 10px;
+}
+.recipe-details::-webkit-scrollbar-thumb{
+    background-color: #f44336;
+    border-radius: 10px;
 }
 .recipe-details{
     display: none;
@@ -109,6 +121,20 @@ form button[type="submit"]:hover{
     height: 520px;
     border-radius: 5px;
     font-size: 20px;
+    transition: all 0.5s ease-in-out;
+    overflow-y: scroll;
+}
+.recipeName{
+    color: #000;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.h3{
+    color: #ff5c5c;
+}
+.recipeinstructions{
+    font-size: 18px;
 }
 
 @media (max-width:600px) {
