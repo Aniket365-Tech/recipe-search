@@ -54,11 +54,11 @@ const feachRecipes = async (query) => {
     // console.log(response.meals[0]);
     const openRecipePopup = (meal)=>{
         recipeDetailsContent.innerHTML = `
-        <h2 class="recipeName">${meal.strMeal}
-        <h3>Ingredents:<h3>
-        <ul class="ingredientList">${fetchIngredients(meal)}</ul>
+        <h2 class="recipeName">${meal.strMeal}</h2><br>
+        <h3 class= "heading">Ingredents:<h3><br>
+        <ul class="ingredientList">${fetchIngredients(meal)}</ul></br>
         <div>
-            <h3>Instruction:</h3>
+            <h3 class= "heading">Instruction:</h3><br>
             <p class="recipeinstructions">${meal.strInstructions}</p>
         </div>
         `

@@ -123,6 +123,8 @@ form button[type="submit"]:hover{
     font-size: 20px;
     transition: all 0.5s ease-in-out;
     overflow-y: scroll;
+    padding-top: 25px;
+    padding-left: 20px;
 }
 .recipeName{
     color: #000;
@@ -135,6 +137,11 @@ form button[type="submit"]:hover{
 }
 .recipeinstructions{
     font-size: 18px;
+}
+
+.recipe-close-btn i{
+    
+    border-radius: 50%;
 }
 
 @media (max-width:600px) {
