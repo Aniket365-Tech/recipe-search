@@ -139,9 +139,14 @@ form button[type="submit"]:hover{
     font-size: 18px;
 }
 
-.recipe-close-btn i{
-    
-    border-radius: 50%;
+.recipe-details i{
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+}
+.heading{
+    text-decoration: underline;
+    color: #ff5c5c;
 }
 
 @media (max-width:600px) {
