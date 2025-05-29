@@ -141,7 +141,7 @@ form button[type="submit"]:hover{
 
 .recipe-details i{
     color: red;
-    font-size: 24px;
+    font-size: 30px;
     cursor: pointer;
 }
 .heading{
